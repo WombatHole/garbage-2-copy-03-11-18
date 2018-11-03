@@ -122,7 +122,7 @@ string [] PermanentActive = new [] {
 
 };
 ///////    RATTING SHIP //////////////
-var ArmorRepairsCount = 1; // how many you have
+var ArmorRepairsCount = 0; // how many you have
 var AfterburnersCount = 1;// how many you have
 var ShieldBoosterCount = 0; //??
 var HardenersCount = 0; // there is no need for more, unless if your modulemeasuretooltip give errors
@@ -130,7 +130,7 @@ var OmniCount = 0; // there is no need for more, unless if your modulemeasuretoo
 var SensorBoostCount = 0; // there is no need for more, unless if your modulemeasuretooltip give errors
 var TractorBeastCount = 0; // there is no need for more, unless if your modulemeasuretooltip give errors
 //////////////////
-var EmergencyWarpOutHitpointPercent = 45; // ex : 60 ; you warp home if your armor hp % is smaller that this value
+var EmergencyWarpOutHitpointPercent = 65; // ex : 60 ; you warp home if your armor hp % is smaller that this value
 var StartArmorRepairerHitPoints = 95; // armor hp value in % , when it starts armor repairer IF is present
 var StartShieldRepairerHitPoints = 35;// Shield hp value in % , when it starts shield booster IF is present
 var StopCapacitorValue = 77; //capacitor value when you stop Painter
